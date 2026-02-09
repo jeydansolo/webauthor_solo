@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Trash of the Week - Week 1</title>
+</head>
+<body>
+
+    <h1>Week 1: New Semester, Same Routine</h1>
+
+    <nav>
+        <a href="#overview">Weekly Overview</a> | 
+        <a href="#work">Work</a> | 
+        <a href="#upgrading">Maintaining and Upgrading</a> | 
+        <a href="#gifts">Gifts and Food</a> | 
+        <a href="#coda">Coda</a>
+    </nav>
+
+    <hr>
+
+    <h2 id="overview">Weekly Overview</h2>
+    <p>Going throughout the week, the recent semester has started.<br>
+    How different can someone’s routine change from being on break and then going back to school?<br>
+    As Spring Semester 2026 begins, recording my trash throughout the week shows my habits and I can compare them to the previous weeks of break!<br>
+    There are many of the same and some different things in my routine that have changed.</p>
+    
+    <p>Recording trash can tell a story of what one does within their week.<br>
+    Taking pictures in general keeps memories, but taking pictures of trash keeps it even more interesting.<br>
+    Through the pictures, you may be able to see:</p>
+    <ul>
+        <li>What I do for work</li>
+        <li>How I treat items given to me</li>
+        <li>Items I buy throughout the week</li>
+        <li>My personal interests and hobbies</li>
+    </ul>
+
+    <p>As a commuter, my routine doesn’t change too much since I don’t really move into a dorm or apartment.<br>
+    I carry two jobs so some things are thrown out then.<br>
+    I have recently picked up DJing which has introduced a new world!</p>
+    
+    <p><a href="#">Back to top</a></p>
+
+    <h2 id="work">Work</h2>
+    <p>Working two jobs there is a contrast. One arcade, one restaurant.<br>
+    Obviously throughout a restaurant there are various things that are disposed of.</p>
+    
+    <h3>Restaurant Trash</h3>
+    <p>This section includes a used rag, that will be disposed of in a bin where the company we gather supplies from will take them back and reuse them.<br>
+    Another thing shown is a ball of foil. The foil comes from a mess up when making boxes.<br>
+    Most of the time when a piece of foil is ripped, we scrap it, and it forms into a ball as we continue to make more and more boxes.</p>
+    <img src="images/rag.jpg" alt="A dirty white rag with green stripes" width="300">
+    <br>
+    <img src="images/foil.jpg" alt="A small ball of crumpled aluminum foil" width="300">
+
+    <h3>Arcade Finds</h3>
+    <p>Regarding my second job, the arcade, we have many claw machines.<br>
+    With our products within the claw machines, there may be some defects within some plushies.<br>
+    In this case we have a penguin sadly missing its eye.<br>
+    I ran into it as I was refilling machines, and brought it to the front to stash in our defective pile.</p>
+    <img src="images/penguin.jpg" alt="A small pink and white penguin plush missing one eye" width="300">
+
+    <p><a href="#">Back to top</a></p>
+
+    <h2 id="upgrading">Maintaining and Upgrading</h2>
+    <p>As mentioned before, my new hobby of DJing provides a vast amount of products and equipment.<br>
+    Here is the process of my recent upgrade:</p>
+    <ol>
+        <li>Bought the <a href="https://www.hercules.com/en-us/product/djcontrol-inpulse-200-mk2/" target="_blank">Hercules Inpulse 200 Mk2</a> to start out.</li>
+        <li>Realized after two weeks that the basic board was holding me back.</li>
+        <li>Found a pre-owned DDJ-400 for $280 (down from $329).</li>
+        <li>Donated the old controller to a friend looking to get into the hobby.</li>
+    </ol>
+    <img src="images/controller.jpg" alt="The Hercules Inpulse 200 Mk2 DJ Controller" width="400">
+    <br>
+    <p>Continuing onwards, as a commuter I drive many many miles.<br>
+    I found out this week my car was leaking coolant!<br>
+    Due to the cold weather, I have been needing to refill it every 2-3 days.</p>
+    <img src="images/coolant.jpg" alt="A blue bottle of Peak Antifreeze and Coolant" width="300">
+
+    <p><a href="#">Back to top</a></p>
+
+    <h2 id="gifts">Gifts, Relationship, and Food</h2>
+    <p>This week, I celebrated my monthiversary with my partner!<br>
+    I gifted her a <a href="https://www.peanuts.com/" target="_blank">Snoopy</a> flower blind box.<br>
+    I was given a keychain we both share of Legos that when put together make a heart!</p>
+    <img src="images/snoopy.jpg" alt="Snoopy Flower Gift blind box packaging" width="300">
+    <br>
+    <img src="images/hearts.jpg" alt="Heart-shaped Lego keychain packaging" width="300">
+
+    <p>As we are both foodies, we eat a lot.<br>
+    I have featured a fortune cookie wrapper as well as the fortune itself.<br>
+    We also visited a restaurant owned by our friend’s family, <strong>Baan Ta</strong>!<br>
+    Very good Thai food, would 100% recommend.</p>
+    <img src="images/fortune.jpg" alt="Fortune cookie wrapper and a slip saying: Maintain a sense of humor to lighten difficult moments" width="300">
+    <br>
+    <img src="images/receipt.jpg" alt="Receipt from Baan Ta Thai Cuisine" width="300">
+
+    <p><a href="#">Back to top</a></p>
+
+    <h2 id="coda">Coda</h2>
+    <p>Thank you for visiting my first trash of the week!<br>
+    More to come! Hopefully I take more pictures of trash and remember to! <br>
+    Looking over the things I throw out, or even thinking about the trash makes things very interesting <br>
+    Maybe I will keep a journal for this in the future!</p>
+    <p>Follow on Instagram <a href="https://www.instagram.com/jeydan.solo/" target="_blank">@jeydan.solo</a> for more!</p>
+
+    <p><a href="#">Back to top</a></p>
+
+</body>
+</html>
