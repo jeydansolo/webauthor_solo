@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Trash of the Week - Week 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="twp.css">
 </head>
 <body>
     <header class="site-header">
         <a href="index.html" class="site-logo"> 
-            <img class="site-logo-image" src="images/site-logo.svg" alt="Name of Website"> 
+            <i class="fa-solid fa-dumpster"></i>
+            <span class="logo-text">Trash Project</span>
         </a> 
         <nav class="sitenav"> 
             <a href="twp_week1.html">Latest</a> 
@@ -27,76 +30,51 @@
             <a href="https://en.wikipedia.org/wiki/Garbology" target="_blank">William Rathje</a>.
         </p>
 
-        <nav class="page-nav">
-            <a href="#overview">Weekly Overview</a> | 
-            <a href="#work">Work</a> | 
-            <a href="#upgrading">Maintaining and Upgrading</a> | 
-            <a href="#gifts">Gifts and Food</a> | 
-            <a href="#coda">Coda</a>
-        </nav>
+        <h2 id="gallery">Item Gallery</h2>
+        <div class="trash-grid">
+            <div class="grid-item"><img src="images/rag.jpg" alt="Used Rag"></div>
+            <div class="grid-item"><img src="images/foil.jpg" alt="Ball of Foil"></div>
+            <div class="grid-item"><img src="images/penguin.jpg" alt="Defective Penguin"></div>
+            <div class="grid-item"><img src="images/controller.jpg" alt="DJ Controller"></div>
+            <div class="grid-item"><img src="images/coolant.jpg" alt="Coolant Bottle"></div>
+            <div class="grid-item"><img src="images/snoopy.jpg" alt="Snoopy Blind Box"></div>
+            <div class="grid-item"><img src="images/hearts.jpg" alt="Lego Keychain"></div>
+            <div class="grid-item"><img src="images/fortune.jpg" alt="Fortune Wrapper"></div>
+            <div class="grid-item"><img src="images/receipt.jpg" alt="Baan Ta Receipt"></div>
+        </div>
 
-        <hr>
-
-        <h2 id="overview">Weekly Overview</h2>
-        <p>As <a href="https://en.wikipedia.org/wiki/Spring_semester" target="_blank">Spring Semester 2026</a> begins, recording my trash shows my habits. Through the pictures, you may be able to see:</p>
+        <h2>Item Data Table</h2>
+        <table class="item-table">
+            <tr>
+                <th>Item Name</th>
+                <th>Location Found</th>
+                <th>Method of Discard</th>
+            </tr>
+            <tr>
+                <td>Defective Penguin</td>
+                <td>Arcade Job</td>
+                <td><i class="fa-solid fa-trash-can"></i></td>
+            </tr>
+            <tr>
+                <td>Used Rag</td>
+                <td>Restaurant Job</td>
+                <td><i class="fa-solid fa-arrows-rotate"></i></td>
+            </tr>
+            <tr>
+                <td>Coolant Bottle</td>
+                <td>Car/Commute</td>
+                <td><i class="fa-solid fa-recycle"></i></td>
+            </tr>
+        </table>
         
-        <ul>
-            <li>What I do for <a href="https://en.wikipedia.org/wiki/Work_(human_activity)" target="_blank">work</a></li>
-            <li>How I treat <a href="https://en.wikipedia.org/wiki/Gift" target="_blank">items</a> given to me</li>
-            <li>Items I <a href="https://en.wikipedia.org/wiki/Shopping" target="_blank">buy</a> throughout the week</li>
-            <li>My personal <a href="https://en.wikipedia.org/wiki/Hobby" target="_blank">interests</a> and hobbies</li>
-            <li>Working at a <a href="https://en.wikipedia.org/wiki/Restaurant" target="_blank">restaurant</a></li>
-            <li>Managing an <a href="https://en.wikipedia.org/wiki/Amusement_arcade" target="_blank">arcade</a></li>
-            <li>My new <a href="https://en.wikipedia.org/wiki/DJ" target="_blank">DJing</a> hobby</li>
-            <li>Commuting in my <a href="https://en.wikipedia.org/wiki/Car" target="_blank">car</a></li>
-            <li>My <a href="https://en.wikipedia.org/wiki/Interpersonal_relationship" target="_blank">relationship</a></li>
-        </ul>
-        <p><a href="#">Back to top</a></p>
+        <div class="legend">
+            <p><strong>Legend:</strong> 
+                <i class="fa-solid fa-trash-can"></i> Trashed | 
+                <i class="fa-solid fa-arrows-rotate"></i> Reused | 
+                <i class="fa-solid fa-recycle"></i> Recycled
+            </p>
+        </div>
 
-        <h2 id="work">Work</h2>
-        <p>Working two jobs there is a contrast. One arcade, one restaurant.</p>
-        
-        <h3>Restaurant Trash</h3>
-        <p>This section includes a used rag, that will be disposed of in a bin where the company we gather supplies from will take them back and reuse them. Another thing shown is a ball of foil.</p>
-        <img src="images/rag.jpg" alt="A dirty white rag with green stripes">
-        <br>
-        <img src="images/foil.jpg" alt="A small ball of crumpled aluminum foil">
-
-        <h3>Arcade Finds</h3>
-        <p>With our products within the claw machines, there may be some defects within some plushies. In this case we have a penguin sadly missing its eye.</p>
-        <img src="images/penguin.jpg" alt="A small pink and white penguin plush missing one eye">
-
-        <p><a href="#">Back to top</a></p>
-
-        <h2 id="upgrading">Maintaining and Upgrading</h2>
-        <p>My new hobby of DJing provides a vast amount of products and equipment. Here is the process of my recent upgrade:</p>
-        <ol>
-            <li>Bought the <a href="https://www.hercules.com/en-us/product/djcontrol-inpulse-200-mk2/" target="_blank">Hercules Inpulse 200 Mk2</a>.</li>
-            <li>Found a pre-owned DDJ-400 for $280.</li>
-            <li>Donated the old controller to a friend.</li>
-        </ol>
-        <img src="images/controller.jpg" alt="The Hercules Inpulse 200 Mk2 DJ Controller">
-        <br>
-        <p>I found out this week my car was leaking coolant!</p>
-        <img src="images/coolant.jpg" alt="A blue bottle of Peak Antifreeze and Coolant">
-
-        <p><a href="#">Back to top</a></p>
-
-        <h2 id="gifts">Gifts, Relationship, and Food</h2>
-        <p>This week, I celebrated my monthiversary with my partner! I gifted her a Snoopy flower blind box.</p>
-        <img src="images/snoopy.jpg" alt="Snoopy Flower Gift blind box packaging">
-        <br>
-        <img src="images/hearts.jpg" alt="Heart-shaped Lego keychain packaging">
-
-        <p>We also visited a restaurant owned by our friend’s family, <strong>Baan Ta</strong>!</p>
-        <img src="images/fortune.jpg" alt="Fortune cookie wrapper">
-        <br>
-        <img src="images/receipt.jpg" alt="Receipt from Baan Ta Thai Cuisine">
-
-        <p><a href="#">Back to top</a></p>
-
-        <h2 id="coda">Coda</h2>
-        <p>Follow on Instagram <a href="https://www.instagram.com/jeydan.solo/" target="_blank">@jeydan.solo</a> for more!</p>
         <p><a href="#">Back to top</a></p>
     </div>
 </body>
