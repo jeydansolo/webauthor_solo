@@ -10,7 +10,7 @@
     <header class="site-header">
         <a href="index.html" class="site-logo"> 
             <i class="fa-solid fa-dumpster"></i>
-            <span class="logo-text">Trash Project</span>
+            <span class="logo-text">Mane's Trash Project</span>
         </a> 
         <nav class="sitenav"> 
             <a href="twp_week1.html">Latest</a> 
@@ -30,52 +30,93 @@
             <a href="https://en.wikipedia.org/wiki/Garbology" target="_blank">William Rathje</a>.
         </p>
 
+        <nav class="page-nav">
+            <a href="#overview">Weekly Overview</a> | 
+            <a href="#gallery">Gallery</a> | 
+            <a href="#data">Item Data</a> | 
+            <a href="#coda">Coda</a>
+        </nav>
+
+        <hr>
+
+        <h2 id="overview">Weekly Overview</h2>
+        <p>As Spring Semester 2026 begins, recording my trash shows my habits. Through the pictures, you may be able to see my routine as a commuter working at a restaurant and an arcade, alongside my new DJing hobby.</p>
+        
         <h2 id="gallery">Item Gallery</h2>
+        [Image of CSS Grid 3x3 layout]
         <div class="trash-grid">
-            <div class="grid-item"><img src="images/rag.jpg" alt="Used Rag"></div>
-            <div class="grid-item"><img src="images/foil.jpg" alt="Ball of Foil"></div>
-            <div class="grid-item"><img src="images/penguin.jpg" alt="Defective Penguin"></div>
-            <div class="grid-item"><img src="images/controller.jpg" alt="DJ Controller"></div>
-            <div class="grid-item"><img src="images/coolant.jpg" alt="Coolant Bottle"></div>
-            <div class="grid-item"><img src="images/snoopy.jpg" alt="Snoopy Blind Box"></div>
-            <div class="grid-item"><img src="images/hearts.jpg" alt="Lego Keychain"></div>
-            <div class="grid-item"><img src="images/fortune.jpg" alt="Fortune Wrapper"></div>
+            <div class="grid-item"><img src="images/rag.jpg" alt="Dirty Rag"></div>
+            <div class="grid-item"><img src="images/foil.jpg" alt="Foil Ball"></div>
+            <div class="grid-item"><img src="images/penguin.jpg" alt="Penguin Plush"></div>
+            <div class="grid-item"><img src="images/controller.jpg" alt="Hercules DJ Controller"></div>
+            <div class="grid-item"><img src="images/coolant.jpg" alt="Peak Coolant Bottle"></div>
+            <div class="grid-item"><img src="images/snoopy.jpg" alt="Snoopy Blindbox"></div>
+            <div class="grid-item"><img src="images/hearts.jpg" alt="Lego Heart Keychain"></div>
+            <div class="grid-item"><img src="images/fortune.jpg" alt="Fortune Cookie Wrapper"></div>
             <div class="grid-item"><img src="images/receipt.jpg" alt="Baan Ta Receipt"></div>
         </div>
 
-        <h2>Item Data Table</h2>
+        <h2 id="data">Item Data Table</h2>
         <table class="item-table">
-            <tr>
-                <th>Item Name</th>
-                <th>Location Found</th>
-                <th>Method of Discard</th>
-            </tr>
-            <tr>
-                <td>Defective Penguin</td>
-                <td>Arcade Job</td>
-                <td><i class="fa-solid fa-trash-can"></i></td>
-            </tr>
-            <tr>
-                <td>Used Rag</td>
-                <td>Restaurant Job</td>
-                <td><i class="fa-solid fa-arrows-rotate"></i></td>
-            </tr>
-            <tr>
-                <td>Coolant Bottle</td>
-                <td>Car/Commute</td>
-                <td><i class="fa-solid fa-recycle"></i></td>
-            </tr>
-        </table>
-        
-        <div class="legend">
-            <p><strong>Legend:</strong> 
-                <i class="fa-solid fa-trash-can"></i> Trashed | 
-                <i class="fa-solid fa-arrows-rotate"></i> Reused | 
-                <i class="fa-solid fa-recycle"></i> Recycled
-            </p>
-        </div>
-
-        <p><a href="#">Back to top</a></p>
-    </div>
-</body>
-</html>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Weight</th>
+                    <th>Source</th>
+                    <th>Location</th>
+                    <th>Cost</th>
+                    <th>Owned</th>
+                    <th>Mode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Foil Ball</td>
+                    <td>&lt;5g</td>
+                    <td>SFC (Work)</td>
+                    <td>Behind counter</td>
+                    <td>$0.05</td>
+                    <td>1 hour</td>
+                    <td><i class="fa-solid fa-trash-can"></i></td>
+                </tr>
+                <tr>
+                    <td>Dirty Rag</td>
+                    <td>~15g</td>
+                    <td>SFC (Work)</td>
+                    <td>Kitchen</td>
+                    <td>?</td>
+                    <td>5.5 hours</td>
+                    <td><i class="fa-solid fa-arrows-rotate"></i></td>
+                </tr>
+                <tr>
+                    <td>Penguin plush</td>
+                    <td>~10g</td>
+                    <td>Gatcha (Work)</td>
+                    <td>Claw Machine</td>
+                    <td>~$12</td>
+                    <td>1 day</td>
+                    <td><i class="fa-solid fa-boxes-stacked"></i></td>
+                </tr>
+                <tr>
+                    <td>Hercules Inpulse 200 Mk2</td>
+                    <td>0.9kg</td>
+                    <td>Amazon</td>
+                    <td>Home</td>
+                    <td>~$112.99</td>
+                    <td>2 weeks</td>
+                    <td><i class="fa-solid fa-hand-holding-heart"></i></td>
+                </tr>
+                <tr>
+                    <td>Coolant/Antifreeze</td>
+                    <td>3.78kg</td>
+                    <td>AutoZone</td>
+                    <td>Car</td>
+                    <td>$19.99</td>
+                    <td>1 week</td>
+                    <td><i class="fa-solid fa-trash-can"></i></td>
+                </tr>
+                <tr>
+                    <td>Snoopy Blindbox (Box)</td>
+                    <td>~1g</td>
+                    <td>Gatcha</td>
+                    <td>
